@@ -1,0 +1,26 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "nitromath"
+  ],
+  "ios": {
+    "iosModuleName": "NitroMath"
+  },
+  "android": {
+    "androidNamespace": [
+      "nitromath"
+    ],
+    "androidCxxLibName": "NitroMath"
+  },
+  "autolinking": {
+    "NitroMath": {
+      "all": {
+        "language": "c++",
+        "implementationClassName": "HybridNitroMath"
+      }
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
