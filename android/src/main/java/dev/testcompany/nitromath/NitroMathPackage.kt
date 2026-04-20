@@ -1,4 +1,4 @@
-package com.nitromath;
+package dev.testcompany.nitromath;
 
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;

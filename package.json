@@ -12,6 +12,7 @@
     "clean": "git clean -dfX",
     "release": "semantic-release",
     "build": "npm run typecheck && bob build",
+    "build-app": "npm run build && npm run codegen && npm run --workspace=example android",
     "codegen": "nitrogen --logLevel=\"debug\" && npm run build",
     "postcodegen": "npm --prefix example run pod"
   },
@@ -43,11 +44,11 @@
   "workspaces": [
     "example"
   ],
-  "repository": "https://github.com/fre/react-native-nitro-math.git",
+  "repository": "https://github.com/FrederickEngelhardt/react-native-nitro-module-custom-prefix-issue.git",
   "author": "fre",
   "license": "MIT",
-  "bugs": "https://github.com/fre/react-native-nitro-math/issues",
-  "homepage": "https://github.com/fre/react-native-nitro-math#readme",
+  "bugs": "https://github.com/FrederickEngelhardt/react-native-nitro-module-custom-prefix-issue/issues",
+  "homepage": "https://github.com/FrederickEngelhardt/react-native-nitro-module-custom-prefix-issue#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

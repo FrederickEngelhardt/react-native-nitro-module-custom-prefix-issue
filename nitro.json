@@ -1,14 +1,15 @@
 {
   "$schema": "https://nitro.margelo.com/nitro.schema.json",
   "cxxNamespace": [
-    "nitromath"
+    "testcompany", "nitromath"
   ],
   "ios": {
     "iosModuleName": "NitroMath"
   },
   "android": {
+    "prefix": "com",
     "androidNamespace": [
-      "nitromath"
+      "testcompany", "nitromath"
     ],
     "androidCxxLibName": "NitroMath"
   },
