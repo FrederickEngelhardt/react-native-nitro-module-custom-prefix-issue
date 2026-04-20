@@ -36,7 +36,7 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
-  namespace "com.nitromath"
+  namespace "dev.testcompany.nitromath"
 
   ndkVersion getExtOrDefault("ndkVersion")
   compileSdkVersion getExtOrIntegerDefault("compileSdkVersion")
@@ -143,6 +143,6 @@ if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
     libraryName = "NitroMath"
-    codegenJavaPackageName = "com.nitromath"
+    codegenJavaPackageName = "dev.testcompany.nitromath"
   }
 }

@@ -1,4 +1,4 @@
-package com.nitromathexample
+package dev.testcompany.nitromathexample
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
